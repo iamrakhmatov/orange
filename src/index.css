@@ -1,0 +1,25 @@
+/* TT Norms Pro web font */
+@font-face {
+  font-family: "TTNormsPro";
+  src: local("TTNormsPro"),
+    url("./fonts/TTNormsProRegular.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "TTNormsProMedium";
+  src: local("TTNormsProMedium"),
+    url("./fonts/TTNormsProMedium.woff") format("woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "TTNormsProBold";
+  src: local("TTNormsProBold"),
+    url("./fonts/TTNormsProBold.woff") format("woff");
+  font-weight: normal;
+}
+
+/* --------------------------------------------------------------------- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
