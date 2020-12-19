@@ -148,7 +148,7 @@ function AppPricing(props) {
 
   return (
     <div className="container mx-auto mt-10 sm:mt-24 pt-0 sm:pt-12 md:pt-0 lg:mt-10 mb-10 relative" id="pricing">
-      <div className="flex justify-center text-4xl font-bold tracking-wider pb-5">Pricing</div>
+      <div className="flex justify-center text-4xl font-bold tracking-wider pb-5">Цены</div>
       <div className="w-12 h-1 bg-secondary mx-auto mb-10"></div>
       <div className="md:w-3/5 mx-auto px-5 md:px-0">
         <Collapse className="w-full" ghost expandIconPosition='right'>
@@ -194,7 +194,7 @@ function AppPricing(props) {
               )}
             />
           </Panel>
-          <Panel header="Accessories" key="4" extra={genExtra('d')}>
+          <Panel header="Аксессуары" key="4" extra={genExtra('d')}>
             <List
               itemLayout="horizontal"
               dataSource={subList}

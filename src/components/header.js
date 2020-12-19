@@ -63,11 +63,11 @@ class AppHeader extends Component {
               <div className="hidden sm:block">
                 {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
                 <Anchor className="h-16 ml-0 pl-0" targetOffset="58">
-                  <Link href="#hero" title="Home" />
-                  <Link href="#product" title="Products" />
-                  <Link href="#pricing" title="Pricing" />
-                  <Link href="#about" title="About" />
-                  <Link href="#contact" title="Contact" />
+                  <Link href="#hero" title="Главное" />
+                  <Link href="#product" title="Продукты" />
+                  <Link href="#pricing" title="Цены" />
+                  <Link href="#about" title="О нас" />
+                  <Link href="#contact" title="Контакты" />
                 </Anchor>
               </div>
             </div>

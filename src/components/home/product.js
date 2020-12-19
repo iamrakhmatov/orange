@@ -18,13 +18,13 @@ function AppProduct() {
     <div className="2xl:container mx-auto" id="product">
       <div className="max-w-lg mx-auto">
         <div className="flex flex-col py-10">
-          <h2 className=" mb-2 flex justify-center text-3xl font-bold tracking-wider">Products</h2>
+          <h2 className=" mb-2 flex justify-center text-3xl font-bold tracking-wider">Продукты</h2>
           <AppleFilled style={{ fontSize: '2rem', color: '#000000' }} />
         </div>
       </div>
       {/* --------------------------------------- Accessories --------------------------------------- */}
       <div className="max-w-md mx-auto flex flex-col justify-center items-center my-3">
-        <h1 className="text-lg text-gray-500 font-black flex justify-center tracking-wide">Accessories</h1>
+        <h1 className="text-lg text-gray-500 font-black flex justify-center tracking-wide">Аксессуары</h1>
         <div className="w-10 h-1 bg-secondary"></div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 px-3 pb-10">
